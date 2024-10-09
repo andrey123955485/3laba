@@ -1,0 +1,59 @@
+.header {
+  background-color: #aaa; /* Светло-серый фон */
+  padding: 20px;
+  text-align: center;
+}
+
+.nav {
+  display: flex;
+  justify-content: center; /* Выравнивание элементов по центру */
+}
+
+.nav-list {
+  display: flex; /* Размещение элементов в ряд */
+  list-style: none; /* Удаление маркеров списка */
+  padding: 0; /* Удаление отступов */
+  margin: 0;
+}
+
+.nav-item {
+  margin: 0 15px; /* Отступ между элементами */
+}
+
+.nav-link {
+  text-decoration: none; /* Удаление подчеркивания */
+  color: #333; /* Темно-серый цвет текста */
+  font-weight: bold;
+  padding: 10px 15px;
+  border-radius: 5px; /* Скругление углов */
+  transition: background-color 0.3s ease; /* Плавно меняющийся цвет фона при наведении */
+}
+
+.nav-link:hover {
+  background-color: #ddd; /* Светлее при наведении */
+}
+
+.logout-form {
+  display: inline-block; /* Выравнивание по строке */
+}
+
+.logout-button {
+  background-color: #dc3545; /* Красный цвет */
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 5px;
+}
+
+.gallery-item {
+  width: 200px; /* Ширина изображения */
+  margin: 10px; /* Отступ между изображениями */
+  float: left; /* Расположение изображений в ряд */
+}
+
+.gallery-item img {
+  width: 100%; /* Изображение заполняет всю ширину контейнера */
+  height: auto; /* Высота изображения автоматически подбирается */
+  border: 1px solid #ccc; /* Рамка вокруг изображения */
+  border-radius: 5px; /* Скругленные углы */
+}
